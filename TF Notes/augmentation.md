@@ -1,33 +1,6 @@
 https://stackoverflow.com/questions/70080062/how-to-correctly-use-imagedatagenerator-in-keras
-'''
-data_gen = tf.keras.preprocessing.image.ImageDataGenerator(
-                rotation_range=40, # See if there is an issue with these arguments
-                width_shift_range=0.2, # Try only adding one at a time
-                height_shift_range=0.2, 
-                rescale=1./255,
-                shear_range=0.2,
-                zoom_range=0.2,
-                horizontal_flip=True,
-                vertical_flip=False,
-                fill_mode='nearest',
-                featurewise_center=False,
-                samplewise_center=False,
-                featurewise_std_normalization=False, # False
-                samplewise_std_normalization=False,
-                zca_whitening=False,
-                zca_epsilon=1e-06,
-                brightness_range=None,
-                channel_shift_range=0.0,
-                cval=0.0,
-                data_format=None,
-                validation_split=0.0,
-                interpolation_order=1,
-                dtype=None,
-                preprocessing_function=self.preprocess_fn)
-'''
 
-
-
+Example:
 '''
 def get_data(self, path, is_vgg, shuffle, augment):
         """ Returns an image data generator which can be iterated
