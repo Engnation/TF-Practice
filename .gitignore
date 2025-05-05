@@ -1,0 +1,13 @@
+.ipynb_checkpoints*
+3D CNN Video Classification/UCF101_subset
+End_of_a_jam.ogv
+Advanced Image Processing/
+Eager Few Shot Object Detection/
+TensorFlow Lite Object Detection/
+*.h5
+*.keras
+*.url
+animation.gif
+regression.py
+video-original.ipynb
+video_classification-original.ipynb
