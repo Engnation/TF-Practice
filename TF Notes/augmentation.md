@@ -1,6 +1,8 @@
 https://stackoverflow.com/questions/70080062/how-to-correctly-use-imagedatagenerator-in-keras
 
 Example:
+
+
 '''
 def get_data(self, path, is_vgg, shuffle, augment):
         """ Returns an image data generator which can be iterated
