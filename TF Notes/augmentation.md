@@ -1,5 +1,5 @@
 https://stackoverflow.com/questions/70080062/how-to-correctly-use-imagedatagenerator-in-keras
-
+'''
 data_gen = tf.keras.preprocessing.image.ImageDataGenerator(
                 rotation_range=40, # See if there is an issue with these arguments
                 width_shift_range=0.2, # Try only adding one at a time
@@ -24,6 +24,7 @@ data_gen = tf.keras.preprocessing.image.ImageDataGenerator(
                 interpolation_order=1,
                 dtype=None,
                 preprocessing_function=self.preprocess_fn)
+'''
 
 '''
 def get_data(self, path, is_vgg, shuffle, augment):
