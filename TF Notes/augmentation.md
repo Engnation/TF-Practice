@@ -5,7 +5,7 @@ Example:
 
 '''
 def get_data(self, path, is_vgg, shuffle, augment):
-        """ Returns an image data generator which can be iterated
+        "" Returns an image data generator which can be iterated
         through for images and corresponding class labels.
 
         Arguments:
@@ -20,7 +20,7 @@ def get_data(self, path, is_vgg, shuffle, augment):
 
         Returns:
             An iterable image-batch generator
-        """
+        ""
 
         if augment:
             # TODO: Use the arguments of ImageDataGenerator()
