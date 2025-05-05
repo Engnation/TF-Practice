@@ -26,6 +26,8 @@ data_gen = tf.keras.preprocessing.image.ImageDataGenerator(
                 preprocessing_function=self.preprocess_fn)
 '''
 
+
+
 '''
 def get_data(self, path, is_vgg, shuffle, augment):
         """ Returns an image data generator which can be iterated
